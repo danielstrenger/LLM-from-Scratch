@@ -1,0 +1,16 @@
+{
+  "vocab_size": 50257,
+  "context_length": 256,
+  "embedding_dim": 768,
+  "num_layers": 12,
+  "num_heads": 12,
+  "batch_size": 4,
+  "num_epochs": 1,
+  "learning_rate": 0.0004,
+  "weight_decay": 0.1,
+  "train_split": 0.9,
+  "data_path": "datasets/asv_cleaned.txt",
+  "checkpoint_dir": "checkpoints",
+  "model_checkpoint": "gpt_model_asv.safetensors",
+  "optim_checkpoint": "gpt_model_asv_optim.pth"
+}

@@ -1,0 +1,34 @@
+# Virtual env
+.venv/
+
+# Bytecode
+__pycache__/
+*/__pycache__/
+*.py[cod]
+
+# Checkpoints / weights
+checkpoints/
+*.safetensors
+*.pth
+*.pt
+
+# Serialized / cache blobs
+*.pkl
+*.pickle
+
+# The .txt files containing the training data
+datasets/**
+
+# Large line-oriented dumps elsewhere in the repo
+*.jsonl
+*.jsonl.gz
+*.jsonl.bz2
+*.jsonl.xz
+*.jsonl.zst
+*.jsonl.zstd
+
+tokenizers/
+
+# configs from my own experiments
+config/*.json
+!config/asv.json

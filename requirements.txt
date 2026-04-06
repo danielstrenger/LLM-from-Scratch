@@ -1,0 +1,8 @@
+safetensors
+packaging
+numpy
+torch
+tqdm
+tiktoken
+pytest
+matplotlib
